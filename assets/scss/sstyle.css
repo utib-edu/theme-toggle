@@ -1,0 +1,161 @@
+body {
+  background-color: var(--bs-gray-300) !important;
+}
+body .toggle {
+  width: 390px;
+  height: 145px;
+  border-radius: 200px;
+  overflow: hidden;
+}
+body .toggle .theme {
+  background-color: #357bb3;
+}
+body .toggle .theme .content {
+  width: 390px;
+  height: 145px;
+  overflow: hidden;
+}
+body .toggle .theme .content .circle-3 {
+  margin-top: -117px;
+  margin-left: -115px;
+  width: 380px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  pointer-events: none;
+  transition: margin 0.5s;
+}
+body .toggle .theme .content .circle-3 .circle-2 {
+  width: 288px;
+  height: 288px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  pointer-events: none;
+}
+body .toggle .theme .content .circle-3 .circle-2 .circle-1 {
+  width: 204px;
+  height: 204px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  pointer-events: none;
+}
+body .toggle .theme .content .circle-3 .circle-2 .circle-1 .sun {
+  width: 120px;
+  height: 120px;
+  background-color: #f1c428;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: inset 5px 5px 15px 0 #fefff7;
+  pointer-events: auto;
+}
+body .toggle .theme .content .circle-3 .circle-2 .circle-1 .sun .sun-shadow {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: inset -5px -5px 15px 0 #927d32;
+  pointer-events: auto;
+}
+body .toggle .theme .night {
+  margin-top: -290px;
+  width: 390px;
+  height: 145px;
+  background-image: url("/assets/images/dark-bg.png");
+  background-size: cover;
+  transition: margin 0.5s;
+}
+body .toggle .theme .cloud-2 {
+  margin-top: 0px !important;
+  width: 390px;
+  height: 145px;
+  background-image: url("/assets/images/cloud-2.png");
+  background-size: cover;
+  transition: margin 0.5s;
+}
+body .toggle .theme .cloud-1 {
+  margin-top: -145px;
+  width: 390px;
+  height: 145px;
+  background-image: url("/assets/images/cloud-1.png");
+  background-size: cover;
+  transition: margin 0.5s;
+}
+body .toggle .theme .circle-3:hover {
+  margin-left: -100px;
+}
+
+[theme-code=dark].body {
+  background-color: var(--bs-gray-900) !important;
+}
+
+[theme-code=dark] .theme {
+  background-color: #1c1f2c !important;
+}
+[theme-code=dark] .theme .content {
+  display: flex;
+  justify-content: end;
+}
+[theme-code=dark] .theme .content .circle-3 {
+  margin-left: 0px !important;
+  margin-right: -115px;
+  transition: margin 0.5s;
+}
+[theme-code=dark] .theme .content .circle-3 .circle-2 .circle-1 .sun {
+  background-color: #c3c9d1 !important;
+  box-shadow: inset 5px 5px 15px 0 #fff !important;
+}
+[theme-code=dark] .theme .content .circle-3 .circle-2 .circle-1 .sun .sun-shadow {
+  box-shadow: inset -5px -5px 15px 0 rgba(150, 150, 150, 0.7568627451) !important;
+  display: flex;
+  flex-direction: row;
+}
+[theme-code=dark] .theme .content .circle-3 .circle-2 .circle-1 .sun .sun-shadow .hole-1 {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #949eb2;
+  margin-top: 47px;
+  margin-left: 15px;
+  box-shadow: inset 0px 0px 10px 0 rgba(0, 0, 0, 0.1215686275);
+}
+[theme-code=dark] .theme .content .circle-3 .circle-2 .circle-1 .sun .sun-shadow .hole-2 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #949eb2;
+  margin-top: 23px;
+  margin-left: -13px;
+  box-shadow: inset 0px 0px 10px 0 rgba(0, 0, 0, 0.1215686275);
+}
+[theme-code=dark] .theme .content .circle-3 .circle-2 .circle-1 .sun .sun-shadow .hole-3 {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #949eb2;
+  margin-top: 50px;
+  margin-left: 8px;
+  box-shadow: inset 0px 0px 10px 0 rgba(0, 0, 0, 0.1215686275);
+}
+[theme-code=dark] .theme .night {
+  margin-top: -145px !important;
+  transition: margin 0.5s;
+}
+[theme-code=dark] .theme .cloud-2 {
+  margin-top: 0px !important;
+  transition: margin 0.5s;
+}
+[theme-code=dark] .theme .cloud-1 {
+  margin-top: -145px;
+  transition: margin 0.5s;
+}
+[theme-code=dark] .theme .circle-3:hover {
+  margin-right: -100px;
+}/*# sourceMappingURL=sstyle.css.map */
