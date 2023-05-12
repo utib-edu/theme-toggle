@@ -68,7 +68,7 @@ body .toggle .theme .night {
   margin-top: -290px;
   width: 390px;
   height: 145px;
-  background-image: url("/assets/images/dark-bg.png");
+  background-image: url("../images/dark-bg.png");
   background-size: cover;
   transition: margin 0.5s;
 }
@@ -76,7 +76,7 @@ body .toggle .theme .cloud-2 {
   margin-top: 0px !important;
   width: 390px;
   height: 145px;
-  background-image: url("/assets/images/cloud-2.png");
+  background-image: url("../images/cloud-2.png");
   background-size: cover;
   transition: margin 0.5s;
 }
@@ -84,7 +84,7 @@ body .toggle .theme .cloud-1 {
   margin-top: -145px;
   width: 390px;
   height: 145px;
-  background-image: url("/assets/images/cloud-1.png");
+  background-image: url("../images/cloud-1.png");
   background-size: cover;
   transition: margin 0.5s;
 }
